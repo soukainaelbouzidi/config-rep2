@@ -1,5 +1,6 @@
 server:
-  port: 8096
+  port: 8090
+
 spring:
   application:
     name: customer-service
@@ -7,7 +8,7 @@ spring:
     username: postgres
     url: jdbc:postgresql://localhost:5433/customer
     password: 11200228
-  jpa:
+    jpa:
     hibernate:
       ddl-auto: create-drop
     properties:
